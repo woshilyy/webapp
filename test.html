@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+
+            /*background: url("http://ww1.sinaimg.cn/bmiddle/67b1bf73gy1ffk38zz4boj20nh15o15x.jpg") no-repeat;*/
+            /*background: url(http://ww3.sinaimg.cn/bmiddle/67b1bf73gy1ffk393lq99j20nh15o7i1.jpg) no-repeat;*/
+            /*background: url(http://ww4.sinaimg.cn/bmiddle/67b1bf73gy1ffk395vri9j20nh15onal.jpg) no-repeat;*/
+            /*background: url(http://ww4.sinaimg.cn/bmiddle/67b1bf73gy1ffk399djopj20nh15oajo.jpg) no-repeat;*/
+            /*background: url(http://wx2.sinaimg.cn/mw690/648ac377gy1ffis0l8zhsj20fo0pbq5n.jpg) no-repeat;*/
+            /*background: url(http://wx2.sinaimg.cn/mw690/648ac377gy1ffis0utnlwj20fo0rt41i.jpg) no-repeat;*/
+            background: url(http://wx4.sinaimg.cn/mw690/648ac377gy1ffgqt9oxkmj20dm0nm41z.jpg) no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .top,.center,.footer{
+            width: 100%;
+        }
+        .top{
+            height: 50px;
+            background-color: #1b6d85;
+        }
+        .center{
+            height: 700px;
+            background-color:transparent;
+            position: relative;
+        }
+        .footer{
+            height: 50px;
+            background-color: #a94442;
+        }
+        .center .bobo{
+            position: absolute;
+            border-radius: 50%;
+            background-color: #fff;
+            opacity: .5;
+        }
+        .center .bobo:nth-of-type(1){
+            width: 50px;
+            height: 50px;
+            top:20px;
+            left: 5%;
+            -webkit-animation: bobo 3s .1s;
+            animation: bobo 3s .1s;
+            -webkit-animation-fill-mode: forwards;
+        }
+
+        .center .bobo:nth-of-type(2){
+            width: 45px;
+            height: 45px;
+            top:20px;
+            left: 25%;
+            -webkit-animation: bobo 3s .3s;
+            animation: bobo 3s .3s;
+            -webkit-animation-fill-mode: forwards;
+        }
+
+        .center .bobo:nth-of-type(3){
+            width: 40px;
+            height: 40px;
+            top:20px;
+            left: 45%;
+            -webkit-animation: bobo 3s .5s;
+            animation: bobo 3s .5s;
+            -webkit-animation-fill-mode: forwards;
+        }
+
+        .center .bobo:nth-of-type(4){
+            width: 35px;
+            height: 35px;
+            top:20px;
+            left: 65%;
+            -webkit-animation: bobo 3s .7s;
+            animation: bobo 3s .7s;
+            -webkit-animation-fill-mode: forwards;
+
+        }
+        .center .bobo:nth-of-type(5){
+            width: 30px;
+            height: 30px;
+            top:20px;
+            left: 85%;
+            -webkit-animation: bobo 3s .9s;
+            animation: bobo 3s .9s;
+            -webkit-animation-fill-mode: forwards;
+
+        }
+        @-webkit-keyframes bobo {
+            0%{
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+            }
+            100%{
+                -webkit-transform: translateY(500px);
+                transform: translateY(500px);
+            }
+        }
+    </style>
+</head>
+<body>
+<section class="top">
+    <p style="text-align: center;line-height: 50px;color: #fff;font-size: 20px;">欢迎来到溜溜个人站</p>
+</section>
+<section class="center">
+    <article class="bobo"></article>
+    <article class="bobo"></article>
+    <article class="bobo"></article>
+    <article class="bobo"></article>
+    <article class="bobo"></article>
+</section>
+<section class="footer">
+    <p style="text-align: center;line-height: 50px;color: #fff;font-size: 13px;">2017-5-14 about lyy</p>
+</section>
+</body>
+</html>
